@@ -1,9 +1,9 @@
-package abstractfactory.javateam;
+package creational.abstractfactory.javateam;
 
-import abstractfactory.Developer;
-import abstractfactory.Team;
-import abstractfactory.TeamLead;
-import abstractfactory.Tester;
+import creational.abstractfactory.Developer;
+import creational.abstractfactory.Team;
+import creational.abstractfactory.TeamLead;
+import creational.abstractfactory.Tester;
 
 
 public class JavaTeamFactory implements Team{

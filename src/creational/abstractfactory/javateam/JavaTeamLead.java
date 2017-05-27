@@ -1,6 +1,6 @@
-package abstractfactory.javateam;
+package creational.abstractfactory.javateam;
 
-import abstractfactory.TeamLead;
+import creational.abstractfactory.TeamLead;
 
 
 public class JavaTeamLead implements TeamLead {

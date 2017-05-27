@@ -1,6 +1,6 @@
-package abstractfactory.javateam;
+package creational.abstractfactory.javateam;
 
-import abstractfactory.Developer;
+import creational.abstractfactory.Developer;
 
 
 public class JavaDeveloper implements Developer {

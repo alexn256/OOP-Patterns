@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 
 public class PhpDeveloperFactory implements DeveloperFactory {

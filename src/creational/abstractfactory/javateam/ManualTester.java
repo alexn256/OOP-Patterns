@@ -1,6 +1,6 @@
-package abstractfactory.javateam;
+package creational.abstractfactory.javateam;
 
-import abstractfactory.Tester;
+import creational.abstractfactory.Tester;
 
 
 public class ManualTester implements Tester {
