@@ -3,11 +3,11 @@ package creational.factory;
 
 public class Program {
     public static void main(String[] args) {
-        DeveloperFactory developerFactory =getDeveloperFactiryByName("Python");
+        DeveloperFactory developerFactory = getDeveloperFactoryByName("C++");
         developerFactory.createDeveloper().writeCode();
     }
 
-    private static DeveloperFactory getDeveloperFactiryByName(String devLanguage){
+    private static DeveloperFactory getDeveloperFactoryByName(String devLanguage){
         if (devLanguage == "Java") {
             return new JavaDeveloperFactory();
         } else if (devLanguage == "C++") {
