@@ -10,7 +10,7 @@ public class Adapter extends MusicManager implements Database{
 
     @Override
     public void read() {
-        loadNewSong();
+        playNewSong();
     }
 
     @Override

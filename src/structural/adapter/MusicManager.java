@@ -7,8 +7,8 @@ public class MusicManager {
         System.out.println("Add new song...");
     }
 
-    public void loadNewSong(){
-        System.out.println("Loading new song...");
+    public void playNewSong(){
+        System.out.println("Playing new song...");
     }
 
     public void editSong(){
