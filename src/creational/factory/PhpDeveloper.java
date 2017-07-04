@@ -5,6 +5,6 @@ public class PhpDeveloper implements Developer{
 
     @Override
     public void writeCode() {
-        System.out.println("Php Developer write Php code...");
+        System.out.println("Php JavaDeveloper write Php code...");
     }
 }
