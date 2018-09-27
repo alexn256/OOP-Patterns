@@ -6,6 +6,7 @@ package structural.adapter.shapes;
  * @author Alexander Naumov
  */
 
+
 public class Demo {
     public static void main(String[] args) {
 

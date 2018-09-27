@@ -23,3 +23,4 @@ public class Adapter extends MusicManager implements Database{
         deleteSong();
     }
 }
+
