@@ -8,6 +8,8 @@
 target/*
 *.iml
 
+classes
+
 # Log file
 *.log
 
@@ -28,14 +30,5 @@ target/*
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-Будет удалено .gitignore
-Будет удалено .idea/
-Будет удалено Desing Patterns.iml
-Будет удалено out/
-Будет удалено src/abstractfactory/Developer.java
-Будет удалено src/abstractfactory/Team.java
-Будет удалено src/abstractfactory/TeamLead.java
-Будет удалено src/abstractfactory/Tester.java
-Будет удалено src/abstractfactory/javateam/JavaTeamFactory.java
-Будет удалено src/abstractfactory/javateam/Main.java
-Будет удалено src/abstractfactory/javateam/ManualTester.java
+.idea/
+classes/
