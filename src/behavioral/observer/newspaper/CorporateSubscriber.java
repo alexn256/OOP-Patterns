@@ -1,19 +1,25 @@
 package behavioral.observer.newspaper;
 
 /**
+ *
  * @author Alexander Naumov.
  */
-public class CorparateSubscriber implements Subscriber {
 
-    private String priority = "statistics";
 
+public class CorporateSubscriber extends Subscriber {
+
+    private String[] priorities = {"statistics", "newspaper"};
+
+    public CorporateSubscriber(String name) {
+        super(name);
+    }
     @Override
-    public String getPriority() {
-        return priority;
+    public String[] getPriorities() {
+        return priorities;
     }
 
     @Override
     public void update(String news) {
-
+        System.out.println(getName() + ": " + news);
     }
 }

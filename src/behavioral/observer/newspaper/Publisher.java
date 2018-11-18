@@ -4,14 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Subject monitored by {@link Subscriber}.
+ *
  * @author Alexander Naumov.
  */
-public class Newspaper {
+
+
+public class Publisher {
 
     private List<Subscriber> subscribers;
-    private String state;
 
-    public Newspaper() {
+    public Publisher() {
         this.subscribers = new ArrayList<>();
     }
 
@@ -23,7 +26,14 @@ public class Newspaper {
         subscribers.remove(subscriber);
     }
 
-    public void notifySubscribers(String state) {
-        subscribers.forEach(subscriber -> subscriber.update(state));
+    public void notifySubscribers(String event, String eventType) {
+        subscribers.forEach(subscriber -> {
+            String [] priorities = subscriber.getPriorities();
+            for (String priority: priorities) {
+                if (priority.equals(eventType)) {
+                    subscriber.update(event);
+                }
+            }
+        });
     }
 }
